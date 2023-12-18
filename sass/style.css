@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.imgBackHeader {
+  position: absolute;
+  background-image: url("../img/back.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 10vh;
+}
+
+header {
+  position: absolute;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 2;
+}
+header div {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  width: 75px;
+}
+header div img {
+  height: 75px;
+  cursor: pointer;
+}
+
+#divCenter {
+  font-size: 20px;
+  width: auto;
+}
+
+main {
+  background-color: rgba(194, 194, 194, 0.153);
+  margin-top: 12vh;
+  margin-left: 5vw;
+  width: 90vw;
+  height: 82vh;
+  border-radius: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+main section {
+  background: rgb(150, 0, 200);
+  background: linear-gradient(90deg, rgba(150, 0, 200, 0.35) 0%, rgba(102, 0, 255, 0.2) 100%);
+  height: auto;
+  width: 70vw;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 1vh 1vw;
+  border: 1px dashed;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  z-index: 1;
+}
+main section h2 {
+  font-size: 50px;
+  margin-bottom: 2vh;
+}
+main section p {
+  margin: 0 1vw;
+}
+main section img {
+  margin: 2vh 0;
+  height: 10vh;
+}
+main .y2024 {
+  background: rgb(150, 0, 200);
+  background: linear-gradient(90deg, rgba(0, 200, 140, 0.35) 0%, rgba(0, 102, 255, 0.2) 100%);
+  cursor: pointer;
+}
+main .years {
+  background: rgb(150, 0, 200);
+  background: linear-gradient(90deg, rgba(150, 0, 200, 0.35) 0%, rgba(0, 200, 140, 0.2) 100%);
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/pettern.jpg");
+  z-index: 0;
+  opacity: 2%;
+}
+
+body {
+  width: 100vw;
+}
+
+.nmain {
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-top: 2vh;
+  text-align: center;
+  height: 980vh;
+}
+.nmain h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  margin-bottom: 2vh;
+}
+.nmain video {
+  height: 20vh;
+  margin-bottom: 2vh;
+}
+.nmain p {
+  margin: 0 2vw 2vh 2vw;
+  font-size: 20px;
+}
+.nmain div {
+  padding: 0 2vw;
+  width: 85%;
+  height: auto;
+  text-align: start;
+}
+.nmain div label {
+  font-size: 20px;
+  text-decoration: underline;
+}
+.nmain div ul {
+  margin-left: 4vw;
+  margin-bottom: 4vh;
+}
+.nmain div ul img {
+  width: 70vw;
+}
+.nmain div ul li {
+  margin-top: 2vh;
+}
+
+.nback {
+  height: 1000vh;
+}/*# sourceMappingURL=style.css.map */
